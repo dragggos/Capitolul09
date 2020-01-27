@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1580135228 source:d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Participant.h"
+	"Roman.h"
+	"Francez.h"
+	"German.h"
+	<vector>
+
+1579513408 source:d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\src\participant.cpp
+	"Participant.h"
+
+1580131163 d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\include\participant.h
+
+1579513508 source:d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\src\roman.cpp
+	"Roman.h"
+
+1579513508 d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\include\roman.h
+	<Participant.h>
+
+1579535218 source:d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\src\francez.cpp
+	"Francez.h"
+
+1579535218 d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\include\francez.h
+	<Participant.h>
+
+1579517554 source:d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\src\german.cpp
+	"German.h"
+
+1579517554 d:\curs c++\proiectegithub\capitolul09\tema09.conferinta\include\german.h
+	<Participant.h>
+
