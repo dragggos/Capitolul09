@@ -49,8 +49,18 @@ int main()
   cout<<"Introduceti optiunea : ";
   short n;
   cin>>n;
+  if ((n!=0)&&(n!=1)&&(n!=2))
+  {
+      cout<<"Optiune incorecta, va rog reintroduceti optiunea : ";
+      cin>>n;
+  }
   while (n!=0)
   {
+    while (n>2)
+            {
+              cout<<"Optiune incorecta, va rog reintroduceti optiunea : ";
+              cin>>n;
+             }
     short ro=0,fr=0,ger=0,alt=0;
     if (n==1) pntParticipanti.push_back(CreazaParticipant());
      else if (n==2)
