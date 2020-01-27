@@ -76,6 +76,7 @@ int main()
      cout<<"Introduceti optiunea : ";
      cin>>n;
   }
+  pntParticipanti.clear();
  return 0;
 }
 
