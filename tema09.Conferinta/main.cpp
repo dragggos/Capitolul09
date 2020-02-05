@@ -45,17 +45,20 @@ Participant* CreazaParticipant()
 int main()
 {
   vector<Participant*> pntParticipanti;
-  Meniu();
-  cout<<"Introduceti optiunea : ";
-  short n;
-  cin>>n;
-  if ((n!=0)&&(n!=1)&&(n!=2))
-  {
-      cout<<"Optiune incorecta, va rog reintroduceti optiunea : ";
-      cin>>n;
-  }
+  //Meniu();
+  //cout<<"Introduceti optiunea : ";
+  short n=1;
+  //cin>>n;
+  //if ((n!=0)&&(n!=1)&&(n!=2))
+  //{
+    //  cout<<"Optiune incorecta, va rog reintroduceti optiunea : ";
+      //cin>>n;
+  //}
   while (n!=0)
   {
+     Meniu();
+     cout<<"Introduceti optiunea : ";
+     cin>>n;
     while (n>2)
             {
               cout<<"Optiune incorecta, va rog reintroduceti optiunea : ";
@@ -82,9 +85,9 @@ int main()
        system("pause");
      }
      system("CLS");
-     Meniu();
-     cout<<"Introduceti optiunea : ";
-     cin>>n;
+    // Meniu();
+     //cout<<"Introduceti optiunea : ";
+     //cin>>n;
   }
   pntParticipanti.clear();
  return 0;
